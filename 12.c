@@ -10,9 +10,9 @@ i=n%10;
 sum=(sum*10)+i;    
 n=n/10;    
 }   	
-if (m==sum)
-printf("yes");
-else
+if (m!=sum)
 printf("no");
+else
+printf("yes");
 return 0;
 }
